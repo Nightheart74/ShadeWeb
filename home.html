@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" width="45" href="resources/icon.png" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShadeWeb - Home</title>
+  <link rel="stylesheet" href="resources/blue-fire.css">
+  <script src="https://replit.com/public/js/repl-auth-v2.js"></script>
+</head>
+
+<body onload="getCurrentDate()">
+  <nav class="navbar">
+    <a href="https://shadeweb.nightheart74.repl.co/home.html"> Home</a>
+    <ul class="nav-links">
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">☰</label>
+      <div class="menu">
+        <li class="nav-dropdown"> Pages<ul class="dropdown">
+            <li><a href="https://shadeweb.nightheart74.repl.co/pages/filename.html"> Link</a></li>
+            <li><a href="https://shadeweb.nightheart74.repl.co/pages/filename.html"> Link</a></li>
+            <li><a href="https://shadeweb.nightheart74.repl.co/pages/filename.html"> Link</a></li>
+            <li><a href="https://shadeweb.nightheart74.repl.co/pages/filename.html"> Link</a></li>
+            <li><a href="https://shadeweb.nightheart74.repl.co/pages/filename.html"> Link</a></li>
+          </ul>
+        </li>
+        <div class="menu">
+          <li class="nav-dropdown"> Games<ul class="dropdown">
+              <li><a href="https://shadeweb.nightheart74.repl.co/pages/games/slope.html"> Slope</a></li>
+              <li><a href="https://shadeweb.nightheart74.repl.co/pages/games/jet-rush.html"> Jet Rush</a></li>
+              <li><a href="https://shadeweb.nightheart74.repl.co/pages/filename.html"> Link</a></li>
+              <li><a href="https://shadeweb.nightheart74.repl.co/pages/filename.html"> Link</a></li>
+            </ul>
+          </li>
+          <li><a href="https://shadeweb.nightheart74.repl.co/pages/contacts.html"> Contacts</a></li>
+          <li><a href="https://shadeweb.nightheart74.repl.co/pages/about.html"> About/Credits</a></li>
+        </div>
+    </ul>
+  </nav>
+  <main>
+    <center>
+      <script type="module">const user = await getUserInfo() </script>
+      <h3>Welcome to ShadeWeb.</h3></br>
+      <h5>ShadeWeb is a website with some random stuff.</h5></br>
+      <img src="resources/icon.png" width="120">
+      <p id="INSERT_DATE"></p></br>
+
+      <button type="button" onclick="change()">Don't Click This.</button>
+
+      <p id="change">Times Clicked: 0</p></br>
+    </center>
+
+    &nbsp;</br>&nbsp;</br>
+    &nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;&nbsp;&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>
+    </h1>
+  </main>
+
+  <div class="footer">© Feb 2023 <a href="/">@Nightheart74</a></div>
+
+  <script src="resources/script.js"></script>
+</body>
+
+</html>
